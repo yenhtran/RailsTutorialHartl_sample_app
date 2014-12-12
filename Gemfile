@@ -47,6 +47,10 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.2.1'
 end
 
+group :production do
+  gem 'unicorn', '4.8.3'
+end
+
 group :test do
 	gem 'faker', '~> 1.1.2'
 	gem 'capybara', '~> 2.1.0'
