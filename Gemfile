@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0.rc1'
 gem 'bcrypt', '3.1.7'
+gem 'faker', '1.4.2'
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bootstrap-sass', '3.2.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -52,7 +55,6 @@ group :production do
 end
 
 group :test do
-	gem 'faker', '~> 1.1.2'
 	gem 'capybara', '~> 2.1.0'
 	gem 'database_cleaner', '~> 1.0.1'
 	gem 'launchy', '~> 2.3.0'
